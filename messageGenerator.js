@@ -75,3 +75,11 @@ function selectRandomPowerfulArtifact() {
 }
 
 const randomPowerfulArtifact = selectRandomPowerfulArtifact();
+
+function generateScenario() {
+  return `${randomAvenger} is in a battle with ${randomVillain}. They are fighting for control of the ${randomPowerfulArtifact}`;
+}
+
+const battleScenario = generateScenario();
+
+console.log(battleScenario);
