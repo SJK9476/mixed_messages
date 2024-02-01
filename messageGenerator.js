@@ -54,3 +54,24 @@ const powerfulArtifacts = [
   "Mandarin's Rings",
   "Serpent Crown",
 ];
+
+function selectRandomAvenger() {
+  const randomIndex = Math.floor(Math.random() * avengers.length);
+  return avengers[randomIndex];
+}
+
+const randomAvenger = selectRandomAvenger();
+
+function selectRandomVillain() {
+  const randomIndex = Math.floor(Math.random() * villains.length);
+  return villains[randomIndex];
+}
+
+const randomVillain = selectRandomVillain();
+
+function selectRandomPowerfulArtifact() {
+  const randomIndex = Math.floor(Math.random() * powerfulArtifacts.length);
+  return powerfulArtifacts[randomIndex];
+}
+
+const randomPowerfulArtifact = selectRandomPowerfulArtifact();
