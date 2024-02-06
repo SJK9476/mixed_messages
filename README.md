@@ -11,5 +11,3 @@
 ## How To
 
     Simply run the script and it will spit out a statement that will tell the user the hero and villian doing battle AND what is at stake.
-
-    echo "# mixed_messages" >> README.md
